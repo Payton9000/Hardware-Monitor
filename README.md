@@ -73,7 +73,7 @@ Users can either use the automatically detected CPU & GPU temperature sensors or
 
 ## Serial Port Usage
 
-For this part, you can refer to the video by the UP user [Garbage Research Society](https://space.bilibili.com/376404862) [here](https://www.bilibili.com/video/BV1Lr421M7u2).
+For this part, you can refer to the video by the UPer [垃圾研究社](https://space.bilibili.com/376404862) [here](https://www.bilibili.com/video/BV1Lr421M7u2).
 
 ## Minimizing and Uninstalling the Software
 
