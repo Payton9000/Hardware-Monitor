@@ -305,6 +305,13 @@ namespace CPUwenduhuoqu
             else
                 settingsLoadedSuccessfully = false;
 
+            string useAida64Mode = ConfigurationManager.AppSettings["useAida64Mode"];
+            if (!string.IsNullOrEmpty(useAida64Mode))
+            {
+                checkBoxUseAida64Mode.Checked = bool.Parse(useAida64Mode);
+            }
+            else
+                settingsLoadedSuccessfully = false;
             return settingsLoadedSuccessfully;
         }
 
@@ -321,6 +328,12 @@ namespace CPUwenduhuoqu
             }
 
             config.Save(ConfigurationSaveMode.Modified);
+
+            if(checkBoxUseAida64Mode.Checked)
+                config.AppSettings.Settings["useAida64Mode"].Value = "true";
+            else
+                config.AppSettings.Settings["useAida64Mode"].Value = "false";
+
 
             ConfigurationManager.RefreshSection("appSettings");
         }
@@ -498,9 +511,9 @@ namespace CPUwenduhuoqu
         {
             int selectedRefreshTime = int.Parse(this.domainUpDownSelectRefreshTime.Text);
 
-            if (selectedRefreshTime < 1 || selectedRefreshTime > 30)
+            if (selectedRefreshTime < 3 || selectedRefreshTime > 30)
             {
-                MessageBox.Show("Please select a refresh time between 1 and 30 seconds.",
+                MessageBox.Show("Please select a refresh time between 3 and 30 seconds.",
                     "Invalid Selection",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);

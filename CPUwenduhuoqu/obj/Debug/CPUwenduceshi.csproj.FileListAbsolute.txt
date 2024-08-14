@@ -1,0 +1,7 @@
+D:\VS2022\CPUwenduhuoqu\CPUwenduhuoqu\obj\Debug\CPUwenduceshi.csproj.AssemblyReference.cache
+D:\VS2022\CPUwenduhuoqu\CPUwenduhuoqu\obj\Debug\CPUwenduceshi.csproj.SuggestedBindingRedirects.cache
+D:\VS2022\CPUwenduhuoqu\CPUwenduhuoqu\obj\Debug\CPUwenduhuoqu.Properties.Resources.resources
+D:\VS2022\CPUwenduhuoqu\CPUwenduhuoqu\obj\Debug\CPUwenduceshi.csproj.GenerateResource.cache
+D:\VS2022\CPUwenduhuoqu\CPUwenduhuoqu\obj\Debug\CPUwenduceshi.csproj.CoreCompileInputs.cache
+D:\VS2022\CPUwenduhuoqu\CPUwenduhuoqu\obj\Debug\CPUwenduhuoqu.exe
+D:\VS2022\CPUwenduhuoqu\CPUwenduhuoqu\obj\Debug\CPUwenduhuoqu.pdb

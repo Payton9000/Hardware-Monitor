@@ -208,7 +208,7 @@ namespace CPUwenduhuoqu
             this.labelNoticeRefreshTimeAdjustmentWindow.Name = "labelNoticeRefreshTimeAdjustmentWindow";
             this.labelNoticeRefreshTimeAdjustmentWindow.Size = new System.Drawing.Size(242, 18);
             this.labelNoticeRefreshTimeAdjustmentWindow.TabIndex = 14;
-            this.labelNoticeRefreshTimeAdjustmentWindow.Text = "Select Refresh Time(1-30s)";
+            this.labelNoticeRefreshTimeAdjustmentWindow.Text = "Select Refresh Time(3-30s)";
             // 
             // notifyIcon
             // 
