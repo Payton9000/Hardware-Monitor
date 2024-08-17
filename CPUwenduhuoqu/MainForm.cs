@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.IO.Ports;
 using System.Linq;
@@ -327,13 +327,12 @@ namespace CPUwenduhuoqu
                 config.AppSettings.Settings["SelectedSensor"].Value = $"{this.chosenCpuAndGpuSensorName.Item1},{this.chosenCpuAndGpuSensorName.Item2}";
             }
 
-            config.Save(ConfigurationSaveMode.Modified);
-
             if(checkBoxUseAida64Mode.Checked)
                 config.AppSettings.Settings["useAida64Mode"].Value = "true";
             else
                 config.AppSettings.Settings["useAida64Mode"].Value = "false";
 
+            config.Save(ConfigurationSaveMode.Modified);
 
             ConfigurationManager.RefreshSection("appSettings");
         }
